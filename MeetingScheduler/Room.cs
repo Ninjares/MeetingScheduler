@@ -16,7 +16,7 @@ namespace MeetingScheduler
 
         public DateTime AvailableTo { get; set; }
 
-        public IEnumerable<Meeting> Schedule { get; set; } = new HashSet<Meeting>();
+        public IList<Meeting> Schedule { get; set; }
     }
 
     public class Meeting
